@@ -131,23 +131,58 @@ transform:translateY(-10px);
 
 .can{
 width:90px;
-height:200px;
+height:220px;
 margin:auto;
-border-radius:20px;
-margin-bottom:20px;
-}
+border-radius:15px;
+position:relative;
 
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-weight:bold;
+font-size:28px;
+color:white;
+
+box-shadow:0 10px 25px rgba(0,0,0,.4);
+
+overflow:hidden;
+}
+.can span{
+transform:rotate(-90deg);
+letter-spacing:3px;
+font-size:30px;
+font-weight:900;
+text-shadow:0 0 10px rgba(255,255,255,.5);
+}
 .red{
-background:red;
+background:
+linear-gradient(
+180deg,
+#ff0000,
+#7a0000
+);
 }
 
 .blue{
-background:deepskyblue;
+background:
+linear-gradient(
+180deg,
+#00bfff,
+#004d80
+);
 }
 
 .gold{
-background:gold;
+background:
+linear-gradient(
+180deg,
+#ffd700,
+#996600
+);
 }
+
+
 
 .card button{
 margin-top:15px;
