@@ -5,7 +5,7 @@ box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
 
-body{
+/*body{
 background:
 linear-gradient(
 135deg,
@@ -13,6 +13,17 @@ linear-gradient(
 #1a1a1a 30%,
 #2b0000 70%,
 #ff0000 100%
+);
+color:white;
+}*/
+body{
+background:
+linear-gradient(
+120deg,
+#111111,
+#2b2b2b,
+#555555,
+#1a1a1a
 );
 color:white;
 }
