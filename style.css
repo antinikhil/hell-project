@@ -4,7 +4,25 @@ padding:0;
 box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
-
+.can-img{
+width:120px;
+height:auto;
+display:block;
+margin:auto;
+transition:.4s ease;
+}
+.card:hover .can-img{
+transform:
+translateY(-10px)
+scale(1.08)
+rotate(-3deg);
+}
+.can-img{
+filter:
+drop-shadow(
+0 10px 20px rgba(255,0,0,.4)
+);
+}
 /*body{
 background:
 linear-gradient(
